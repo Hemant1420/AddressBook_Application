@@ -13,13 +13,13 @@ namespace AddressBook
    
     {
         static List<User> users = new List<User>();
-        static void listadd(User obj) {
+        public void listadd(User obj) {
 
             users.Add(obj);
 
         }
 
-        static void AddContact()
+        public void AddContact()
         {
             Console.WriteLine("Enter your Name: ");
             string Name = Console.ReadLine();
@@ -46,28 +46,7 @@ namespace AddressBook
             listadd(u1);
          }
 
-        static void ViewDetails()
-        {
-            int contact;
-            Console.WriteLine("Enter Your Contact detail: ");
-            contact = Convert.ToInt32(Console.ReadLine());
 
-            foreach (User user in users)
-            {
-                if(user.Contact == contact)
-                {
-                    Console.WriteLine(user.Name);
-                    Console.WriteLine(user.Email);
-                    Console.WriteLine(user.City);
-                    Console.WriteLine(user.State);
-                    Console.WriteLine(user.Zipcode);
-                    Console.WriteLine(user.Contact);
-
-                    
-
-                }
-            }
-        }
 
         static void Main()
         {
