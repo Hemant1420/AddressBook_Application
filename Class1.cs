@@ -9,7 +9,7 @@ namespace AddressBook
     public class AddressBook1 
     {
 
-        public List<User> users = new List<User>();
+        static List<User> users = new List<User>();
         public List<string> str = new List<string>();
         public void listadd(User obj)
         {
@@ -37,21 +37,50 @@ namespace AddressBook
 
             Console.WriteLine("Enter your Contact : ");
             string Contact = Console.ReadLine();
-            Console.WriteLine(Contact);
+            
 
 
 
             User u1 = new User(Name, Emailid, City, State, Zip, Contact);
-            Console.WriteLine(u1.Name);
+         
             listadd(u1);
-            string name1 = "someone";
-            str.Add(name1);
-            string ele = str[0];
-            Console.WriteLine(ele);
+          
             
         }
 
-        
+        public void ViewDetails()
+        {
+            Console.WriteLine("Enter Your Contact detail: ");
+            string contact = Console.ReadLine();
+
+            
+
+            foreach (User i in users)
+            {
+              
+               
+               
+                // Convert i.Contact to string for comparison
+                if (i.Contact == contact)
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("Name : " + i.Name);
+                    Console.WriteLine("Email : " + i.Email);
+                    Console.WriteLine("City : " + i.City);
+                    Console.WriteLine("State : " + i.State);
+                    Console.WriteLine("ZipCode : " + i.Zipcode);
+                    Console.WriteLine("Contact : " + i.Contact);
+                }
+                else
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("No Records Found with the following Contact Number");
+                }
+            }
+        }
+
+
+
 
 
 

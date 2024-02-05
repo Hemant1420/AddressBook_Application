@@ -33,7 +33,11 @@ namespace AddressBook
                     newuser.AddContact();
                 }
 
-                
+                else if (Optionnum == 2)
+                {
+                    newuser.ViewDetails();
+                }
+
 
 
 
