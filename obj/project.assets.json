@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hemant\\source\\repos\\AddressBook\\AddressBook.csproj",
+      "projectUniqueName": "C:\\Users\\hemant\\source\\repos\\AddressBook_Application\\AddressBook.csproj",
       "projectName": "AddressBook",
-      "projectPath": "C:\\Users\\hemant\\source\\repos\\AddressBook\\AddressBook.csproj",
+      "projectPath": "C:\\Users\\hemant\\source\\repos\\AddressBook_Application\\AddressBook.csproj",
       "packagesPath": "C:\\Users\\hemant\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hemant\\source\\repos\\AddressBook\\obj\\",
+      "outputPath": "C:\\Users\\hemant\\source\\repos\\AddressBook_Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
