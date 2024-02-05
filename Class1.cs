@@ -80,6 +80,41 @@ namespace AddressBook
         }
 
 
+        public void EditContact()
+        {
+            string contact;
+            Console.WriteLine("Enter Your Contact detail: ");
+            contact = Console.ReadLine();
+
+            foreach (User i in users)
+            {
+                if (i.Contact == contact)
+                {
+                    Console.Write("old Name : " + i.Name + " ; Enter the New Name: ");
+                    i.Name = Console.ReadLine();
+                    Console.Write("old Email : " + i.Email + " ;Enter the new Email: ");
+                    i.Email = Console.ReadLine();
+                    Console.Write("old City : " + i.City + " ;Enter the new City: ");
+                    i.City = Console.ReadLine();
+                    Console.Write("old State : " + i.State + " ;Enter the new State: ");
+                    i.State = Console.ReadLine();
+                    Console.Write("old Zipcode : " + i.Zipcode + " ;Enter the new ZipCode: ");
+                    i.Zipcode = (Console.ReadLine());
+                    Console.Write("old Contact : " + i.Contact + " ;Enter the new Contact: ");
+                    i.Contact = (Console.ReadLine());
+                    Console.WriteLine("");
+                    Console.WriteLine("Changes Saved Successfully");
+                }
+                else
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("No Records Found with foll Contact Number");
+                }
+
+            }
+        }
+
+
 
 
 

@@ -36,6 +36,11 @@ namespace AddressBook
                 else if (Optionnum == 2)
                 {
                     newuser.ViewDetails();
+                } 
+                
+                else if (Optionnum == 3)
+                {
+                    newuser.EditContact();
                 }
 
 
