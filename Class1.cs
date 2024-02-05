@@ -115,6 +115,23 @@ namespace AddressBook
         }
 
 
+        public void DeleteContact()
+        {
+            string contact;
+            Console.WriteLine("Enter Your Contact detail: ");
+            contact = (Console.ReadLine());
+
+            for (int i = 0; i < users.Count; i++)
+            {
+                if (users[i].Contact == contact)
+                {
+                    users.RemoveAt(i);
+                }
+            }
+        }
+
+
+
 
 
 

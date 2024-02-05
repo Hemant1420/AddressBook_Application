@@ -42,6 +42,10 @@ namespace AddressBook
                 {
                     newuser.EditContact();
                 }
+                else if (Optionnum == 4)
+                {
+                    newuser.DeleteContact();
+                }
 
 
 
