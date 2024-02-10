@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "AddressBook/1.0.0": {
+      "Address_book_2/1.0.0": {
         "runtime": {
-          "AddressBook.dll": {}
+          "Address_book_2.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "AddressBook/1.0.0": {
+    "Address_book_2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

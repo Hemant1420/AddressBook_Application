@@ -1,0 +1,14 @@
+E:\c# projects\Address_book_2\bin\Debug\net8.0\Address_book_2.exe
+E:\c# projects\Address_book_2\bin\Debug\net8.0\Address_book_2.deps.json
+E:\c# projects\Address_book_2\bin\Debug\net8.0\Address_book_2.runtimeconfig.json
+E:\c# projects\Address_book_2\bin\Debug\net8.0\Address_book_2.dll
+E:\c# projects\Address_book_2\bin\Debug\net8.0\Address_book_2.pdb
+E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.AssemblyInfoInputs.cache
+E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.AssemblyInfo.cs
+E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.csproj.CoreCompileInputs.cache
+E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.dll
+E:\c# projects\Address_book_2\obj\Debug\net8.0\refint\Address_book_2.dll
+E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.pdb
+E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.genruntimeconfig.cache
+E:\c# projects\Address_book_2\obj\Debug\net8.0\ref\Address_book_2.dll

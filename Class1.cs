@@ -4,146 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AddressBook
+namespace Address_book_2
 {
-    public class AddressBook1 
+    public class User
     {
+        public string Name;
+        public string City;
+        public string State;
+        public string Email;
+        public string Zip_code;
+        public string Contact_no;
 
-        static List<User> users = new List<User>();
-        public List<string> str = new List<string>();
-        public void listadd(User obj)
+        public User(string name, string city, string state, string email, string zip_code, string contact_no )
         {
-            //Console.WriteLine(obj);
-            users.Add(obj);
-
+            Name = name;
+            City = city;
+            State = state; 
+            Email = email;
+            Zip_code = zip_code;
+            Contact_no = contact_no;
         }
-
-        public void AddContact()
-        {
-            Console.WriteLine("Enter your Name: ");
-            string Name = Console.ReadLine();
-
-            Console.WriteLine("Enter your Email: ");
-            string Emailid = Console.ReadLine();
-
-            Console.WriteLine("Enter your City: ");
-            string City = Console.ReadLine();
-
-            Console.WriteLine("Enter your State: ");
-            string State = Console.ReadLine();
-
-            Console.WriteLine("Enter your ZipCode: ");
-            string Zip = Console.ReadLine();
-
-            Console.WriteLine("Enter your Contact : ");
-            string Contact = Console.ReadLine();
-            
-
-
-
-            User u1 = new User(Name, Emailid, City, State, Zip, Contact);
-         
-            listadd(u1);
-          
-            
-        }
-
-        public void ViewDetails()
-        {
-            Console.WriteLine("Enter Your Contact detail: ");
-            string contact = Console.ReadLine();
-
-            
-
-            foreach (User i in users)
-            {
-              
-               
-               
-                // Convert i.Contact to string for comparison
-                if (i.Contact == contact)
-                {
-                    Console.WriteLine("");
-                    Console.WriteLine("Name : " + i.Name);
-                    Console.WriteLine("Email : " + i.Email);
-                    Console.WriteLine("City : " + i.City);
-                    Console.WriteLine("State : " + i.State);
-                    Console.WriteLine("ZipCode : " + i.Zipcode);
-                    Console.WriteLine("Contact : " + i.Contact);
-                }
-                else
-                {
-                    Console.WriteLine("");
-                    Console.WriteLine("No Records Found with the following Contact Number");
-                }
-            }
-        }
-
-
-        public void EditContact()
-        {
-            string contact;
-            Console.WriteLine("Enter Your Contact detail: ");
-            contact = Console.ReadLine();
-
-            foreach (User i in users)
-            {
-                if (i.Contact == contact)
-                {
-                    Console.Write("old Name : " + i.Name + " ; Enter the New Name: ");
-                    i.Name = Console.ReadLine();
-                    Console.Write("old Email : " + i.Email + " ;Enter the new Email: ");
-                    i.Email = Console.ReadLine();
-                    Console.Write("old City : " + i.City + " ;Enter the new City: ");
-                    i.City = Console.ReadLine();
-                    Console.Write("old State : " + i.State + " ;Enter the new State: ");
-                    i.State = Console.ReadLine();
-                    Console.Write("old Zipcode : " + i.Zipcode + " ;Enter the new ZipCode: ");
-                    i.Zipcode = (Console.ReadLine());
-                    Console.Write("old Contact : " + i.Contact + " ;Enter the new Contact: ");
-                    i.Contact = (Console.ReadLine());
-                    Console.WriteLine("");
-                    Console.WriteLine("Changes Saved Successfully");
-                }
-                else
-                {
-                    Console.WriteLine("");
-                    Console.WriteLine("No Records Found with foll Contact Number");
-                }
-
-            }
-        }
-
-
-        public void DeleteContact()
-        {
-            string contact;
-            Console.WriteLine("Enter Your Contact detail: ");
-            contact = (Console.ReadLine());
-
-            for (int i = 0; i < users.Count; i++)
-            {
-                if (users[i].Contact == contact)
-                {
-                    users.RemoveAt(i);
-                }
-            }
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
 }
