@@ -10,29 +10,33 @@ namespace Address_book_2
 {
     public class MainTest
     {
-        
+
+       
         static void Main()
         {
-            Methods methods = new Methods();
-            int Option;
-
-            do
-            {
             
-                Console.WriteLine("Select the Option.no from Below to perform Operations \n");
-                Console.WriteLine("1-> Add Contacts");
-                Console.WriteLine("2-> View Contacts");
-                Console.WriteLine("3-> Edit Contacts");
-                Console.WriteLine("4-> Delete Contacts");
-                Console.WriteLine("5-> Get Contacts from specific state or city");
-                Console.WriteLine("6-> Exit \n");
+                Methods methods = new Methods();
+                int Option;
 
-                Console.WriteLine("Select the Option.no from Below to perform Operations ");
-                 Option = Convert.ToInt32(Console.ReadLine());
 
-            
 
-            
+                do
+                {
+
+                    Console.WriteLine("Select the Option.no from Below to perform Operations \n");
+                    Console.WriteLine("1-> Add Contacts");
+                    Console.WriteLine("2-> View Contacts");
+                    Console.WriteLine("3-> Edit Contacts");
+                    Console.WriteLine("4-> Delete Contacts");
+                    Console.WriteLine("5-> Get Contacts from specific state or city");
+                    Console.WriteLine("6-> Exit \n");
+
+                    Console.WriteLine("Select the Option.no from Below to perform Operations ");
+                    Option = Convert.ToInt32(Console.ReadLine());
+
+
+
+
                     switch (Option)
                     {
                         case 1:
@@ -57,8 +61,16 @@ namespace Address_book_2
 
 
                     }
-            } while (Option != 6);
+
+                } while (Option != 6);
         }
+            
+
+                
+
+        
+        
+
     }
  }
 

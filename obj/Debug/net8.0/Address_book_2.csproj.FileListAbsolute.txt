@@ -12,3 +12,11 @@ E:\c# projects\Address_book_2\obj\Debug\net8.0\refint\Address_book_2.dll
 E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.pdb
 E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.genruntimeconfig.cache
 E:\c# projects\Address_book_2\obj\Debug\net8.0\ref\Address_book_2.dll
+E:\c# projects\Address_book_2\bin\Debug\net8.0\System.Data.SqlClient.dll
+E:\c# projects\Address_book_2\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+E:\c# projects\Address_book_2\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+E:\c# projects\Address_book_2\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+E:\c# projects\Address_book_2\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\c# projects\Address_book_2\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.csproj.AssemblyReference.cache
+E:\c# projects\Address_book_2\obj\Debug\net8.0\Address_book_2.csproj.CopyComplete
